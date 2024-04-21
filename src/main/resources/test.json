@@ -1,0 +1,92 @@
+{
+  "response": {
+    "responseDesc": "Found Merchant details",
+    "responseCode": "MERCH_RESPONSE_CODE_1005"
+  },
+  "products": [
+    {
+      "image": {
+        "thumbnail1": "https://res.cloudinary.com/dddd9bezd/image/upload/v1713254686/Products/fortunar_ubzdhr.jpg"
+      },
+      "subCategory": "toyota",
+      "taxExempt": false,
+      "available": true,
+      "description": "legendary Suv segment car of Toyota.",
+      "discountAmount": 0,
+      "active": true,
+      "discountPercentage": 0,
+      "price": 5000000,
+      "name": "fortuner",
+      "attributes": {
+        "productMedia": "jeenu",
+        "pageUrl": "https://www.google.com/search?sca_esv=a9f733130965a78f&sca_upv=1&rlz=1C1RXQR_enIN1104IN1104&q=toyota+fortuner&source=lnms&uds=AMwkrPszIC14Zlyd2wGwocCkqNMdSe-XklzPrLUXBLPxzMoOklCezKLJGpPOOFrINpGyJGQi1KhrMs4sFbwHj28jz_iys02EOdViQcAupF4Hs8DgKLWTLC3BYsgQGX44TNfvgUYm5lEm0fcc8jgKg4UUJlv5IsHVEA7K1drPXBRK4QYWEQppzsQ_ZYOsyJTJ1DgqlkFQdSnGY9tKl-svOb8Jjqw7v5sjw5SVjscS6swX5RR3bkZz3PKe1ar6qcVuyulXa6skrIXs8IYeHEzdNtty9X65DnkrOPjlI3aSmjwOdugrNPCyEUU&sa=X&ved=2ahUKEwiN5f33osaFAxVgyzgGHXBPAZ8Q0pQJegQIERAB&biw=1536&bih=730&dpr=1.25",
+        "productLocation": "usa"
+      },
+        "id": "1356991008111001",
+      "category": "car",
+      "activationDate": "04/16/2024 12:00:00"
+    },
+    {
+      "image": {
+        "thumbnail1": "https://res.cloudinary.com/dddd9bezd/image/upload/v1713255331/Products/innova_utr1sn.jpg"
+      },
+      "subCategory": "toyota",
+      "taxExempt": false,
+      "available": true,
+      "description": "Best family car segment from Toyota",
+      "discountAmount": 0,
+      "active": true,
+      "discountPercentage": 0,
+      "price": 2000000,
+      "name": "innova",
+      "attributes": {
+        "pageUrl": "https://www.google.com/search?sca_esv=a9f733130965a78f&sca_upv=1&rlz=1C1RXQR_enIN1104IN1104&q=innova+crysta&source=lnms&uds=AMwkrPt2v0fA1LFFf7PCydq7oNegZZzdADwyrN3f6qA0YuXK1mL7mPdON9o6QG4yv513Svgdcr_agdPFjs4d0HCKMTJ56yxFE-uzHQPgUuwBAYPs021Ry_HF2Vk_Cqnt0SkEVT5d49hy_H8m9L7Dxpf8Hehemn2Y9OJfSrLqZnP0ZUbl_9VJ-wIfMmthTKMmK34xoRyMzD9A5_kyCl_nY1kaOQc9l1YEJTkEEskweNHyaqLDEq_Raj6VX7VYZb9zlIQ9-8w4hDSbBxjhI-NpLqpVkXIrna1oKrwRsdH-XV1tJdbYj1XEsWo&sa=X&ved=2ahUKEwiQnsWnpcaFAxV8xjgGHQRxCqEQ0pQJegQIERAB&biw=1536&bih=730&dpr=1.25",
+        "productLocation": "usa"
+      },
+      "id": "1356991008111002",
+      "category": "car",
+      "activationDate": "04/16/2024 12:00:00"
+    },
+    {
+      "image": {
+        "thumbnail1": "https://res.cloudinary.com/dddd9bezd/image/upload/v1713256072/Products/himalayan_ivyw9u.jpg"
+      },
+      "subCategory": "RoyalEnfiled",
+      "taxExempt": false,
+      "available": true,
+      "description": "Best Off Roading and mountain terrain bike of Royal Enfield.",
+      "discountAmount": 0,
+      "active": true,
+      "discountPercentage": 0,
+      "price": 300000,
+      "name": "Himalayan",
+      "attributes": {
+        "pageUrl": "https://www.google.com/search?sca_esv=a9f733130965a78f&sca_upv=1&rlz=1C1RXQR_enIN1104IN1104&q=royal+enfield+himalayan&source=lnms&uds=AMwkrPudipM4cMnOwQU2hcq8Ehq8Lz9nP21b7tiqv1ePRcqvlvvQQMWZOS1RWtCEGU7qzJ8ppUC6D9yw4qreibya_rQp5K1yQNa2HyZtsOM2k8MHv_T4M6hveMzc7pGlxS7ucNjNQOQe9i3-2Jlm8ohYZyCkh-y9tbvVXzZha65peXcjv8qC_DzuWUbYE336hV5PsVEvDpscZRlFi-XEOU5olEEfMN0iQx-6Ut8icA0wV0g30Lb4TKbphTU6eKM8rFpWR_NGSZDEKwZWSDPe9n_qRBO3dA02uDGArDot3LxgL_J2U44yXj6dheMAkLnB0GvaugCK4l-9&sa=X&ved=2ahUKEwie6sGlp8aFAxXBzzgGHan9C50Q0pQJegQIERAB&biw=1536&bih=730&dpr=1.25",
+        "productLocation": "usa"
+      },
+      "id": "1356991008111003",
+      "category": "bike",
+      "activationDate": "04/16/2024 12:00:00"
+    },
+    {
+      "image": {
+        "thumbnail1": "https://res.cloudinary.com/dddd9bezd/image/upload/v1713256352/Products/classic350_qhx9kc.jpg"
+      },
+      "subCategory": "RoyalEnfiled",
+      "taxExempt": false,
+      "available": true,
+      "description": "Best long Drive bike of Royal Enfield",
+      "discountAmount": 0,
+      "active": true,
+      "discountPercentage": 0,
+      "price": 200000,
+      "name": "Classic350",
+      "attributes": {
+        "pageUrl": "https://www.google.com/search?sca_esv=a9f733130965a78f&sca_upv=1&rlz=1C1RXQR_enIN1104IN1104&q=royal+enfield+himalayan&source=lnms&uds=AMwkrPudipM4cMnOwQU2hcq8Ehq8Lz9nP21b7tiqv1ePRcqvlvvQQMWZOS1RWtCEGU7qzJ8ppUC6D9yw4qreibya_rQp5K1yQNa2HyZtsOM2k8MHv_T4M6hveMzc7pGlxS7ucNjNQOQe9i3-2Jlm8ohYZyCkh-y9tbvVXzZha65peXcjv8qC_DzuWUbYE336hV5PsVEvDpscZRlFi-XEOU5olEEfMN0iQx-6Ut8icA0wV0g30Lb4TKbphTU6eKM8rFpWR_NGSZDEKwZWSDPe9n_qRBO3dA02uDGArDot3LxgL_J2U44yXj6dheMAkLnB0GvaugCK4l-9&sa=X&ved=2ahUKEwie6sGlp8aFAxXBzzgGHan9C50Q0pQJegQIERAB&biw=1536&bih=730&dpr=1.25"
+      },
+      "id": "1356991008111004",
+      "category": "bike",
+      "activationDate": "04/16/2024 12:00:00"
+    }
+  ]
+}
