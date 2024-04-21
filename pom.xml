@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.employee</groupId>
-	<artifactId>employee</artifactId>
+	<artifactId>OauthFrameWork1stApllication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>employee</name>
 	<description>Training SpringBoot</description>
@@ -58,11 +58,11 @@
 			<optional>true</optional>
 		</dependency>
 
-		<dependency>
-			<groupId>org.flywaydb</groupId>
-			<artifactId>flyway-core</artifactId>
-			<version>9.3.0</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.flywaydb</groupId>-->
+<!--			<artifactId>flyway-core</artifactId>-->
+<!--			<version>9.3.0</version>-->
+<!--		</dependency>-->
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
 		<dependency>
 			<groupId>org.json</groupId>

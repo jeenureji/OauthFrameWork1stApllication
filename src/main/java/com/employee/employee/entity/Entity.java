@@ -1,16 +1,12 @@
 package com.employee.employee.entity;
 
-
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
-import java.sql.Timestamp;
 import java.time.LocalDateTime;
-import java.util.Date;
 
 @jakarta.persistence.Entity
 @Table(name = "employee")
@@ -20,7 +16,8 @@ import java.util.Date;
 public class Entity {
 
     @Id
-//    @GeneratedValue(strategy = GenerationType.AUTO)
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name ="id")
     private Integer id;
 
     @Column(name = "first_name")

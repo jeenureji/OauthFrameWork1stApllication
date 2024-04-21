@@ -69,6 +69,15 @@ return entities;
 
         return jsonArray;
     }
+
+
+
+
+
+
+
+
+
 public static void main(String[] args) throws IOException {
 
     String filePath = "src/main/resources/test.json";
