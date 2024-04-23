@@ -1,6 +1,7 @@
 package com.employee.employee.controller;
 
 
+import com.employee.employee.dto.CarDto;
 import com.employee.employee.entity.Attributes;
 import com.employee.employee.entity.Car;
 import com.employee.employee.entity.Image;
@@ -23,9 +24,12 @@ public class CarController {
     }
 
     @PostMapping("/savecar")
-    public ResponseEntity<String> saveCar(@RequestBody Car car) {
+    public ResponseEntity<String> saveCar(@RequestBody CarDto carDto) {
         String message = "saved the body";
-        carService.saveCar(car);
+        Car car = carDto.getCar();
+        Image image = carDto.getImage();
+        Attributes attributes = carDto.getAttributes();
+        carService.saveCar(car, image, attributes);
         return ResponseEntity.status(HttpStatus.CREATED).body(message);
 
     }
@@ -45,8 +49,8 @@ public class CarController {
     }
 
     @GetMapping("/getCarById")
-    public ResponseEntity<Car> getCarByid(@RequestParam(value = "carId") Long carId){
-       Car car = carService.getCarById(carId);
+    public ResponseEntity<Optional<Car>> getCarByid(@RequestParam(value = "carId") Long carId){
+       Optional<Car> car = carService.getCarById(carId);
        return new ResponseEntity<>(car, HttpStatus.FOUND);
     }
 

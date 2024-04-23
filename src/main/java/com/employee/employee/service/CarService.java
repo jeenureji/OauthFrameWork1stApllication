@@ -17,6 +17,7 @@ import org.springframework.stereotype.Service;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.*;
 
 @Service
@@ -72,7 +73,12 @@ public class CarService {
     }
 
 
-public void saveCar(Car car){
+public void saveCar(Car car, Image image, Attributes attributes){
+
+        image.setCar(car);
+        attributes.setCar(car);
+        car.getImage().add(image);
+        car.getAttributes().add(attributes);
         carRepository.save(car);
 }
 public void saveAttribute(Attributes attributes){
@@ -82,18 +88,10 @@ public void saveImage(Image image){
         imageRepository.save(image);
 }
 
-public Car getCarById(Long carId){
+public Optional<Car> getCarById(Long carId){
     Optional<Car> getCar = carRepository.findById(carId);
-    if(getCar.isPresent()){
-        Car car = getCar.get();
-        car.getImage().size();
-        log.info("car {} ", car.getImage());// Fetch images
-        car.getAttributes().size();// Fetch attribute
-        log.info("car {} ", car.getAttributes());
-        return car;
-    }
-   return  null;
 
+return getCar;
 }
 
     public Optional<Attributes> getCarByAttId(String attId){

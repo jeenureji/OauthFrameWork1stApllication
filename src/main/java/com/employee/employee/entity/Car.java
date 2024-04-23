@@ -24,10 +24,14 @@ public class Car {
     private Long id;
 
     @OneToMany(mappedBy = "car", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private List<Image> image;
+    private List<Image> image = new ArrayList<>();
 
     @OneToMany(mappedBy = "car", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private Set<Attributes> attributes;
+    private List<Attributes> attributes = new ArrayList<>();
+
+    // Rest of your code
+
+
 
     @Column(name = "subCategory")
     private String subCategory;
@@ -59,28 +63,17 @@ public class Car {
     @Column(name = "category")
     private String category;
 
-    @Temporal(TemporalType.TIMESTAMP)
+
     @Column(name = "localDateTime")
-//    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss.SS")
-    private Date localDateTime;
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    private LocalDateTime localDateTime;
 
-//    @PrePersist
-//    public void prePersist(){
-//        this.localDateTime = LocalDateTime.now();
-//    }
-
-    public List<Image> getImage() {
-        if (image == null) {
-            image = new ArrayList<>();
-        }
-        return image;
+    @PrePersist
+    public void prePersist() {
+        this.localDateTime = LocalDateTime.now();
+        System.out.println("date & time : " + this.localDateTime);
     }
 
-    public Set<Attributes> getAttributes() {
-        if (attributes == null) {
-            attributes = new HashSet<>();
-        }
-        return attributes;
-    }
+
 
 }
